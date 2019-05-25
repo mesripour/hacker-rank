@@ -1,0 +1,3 @@
+SELECT sum(city.population) as sum_population FROM city
+INNER JOIN country ON country.code = city.countrycode
+WHERE country.continent = 'Asia'
