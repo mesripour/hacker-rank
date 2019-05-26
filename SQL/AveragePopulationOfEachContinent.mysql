@@ -1,0 +1,3 @@
+SELECT country.continent, FLOOR(AVG(city.population)) as avg_population FROM city
+INNER JOIN country ON country.code = city.countrycode
+GROUP BY country.continent
