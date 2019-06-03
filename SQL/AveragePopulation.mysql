@@ -1,0 +1,1 @@
+SELECT ROUND(AVG(population)) as avg FROM CITY
